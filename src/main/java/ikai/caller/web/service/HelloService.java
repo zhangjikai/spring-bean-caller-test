@@ -21,7 +21,7 @@ public class HelloService {
     private final Logger logger = LoggerFactory.getLogger(HelloService.class);
     
     public String sayHello(String s) {
-        return s;
+        return "hello: " + s;
     }
 
     public String sayHello(Map<String, Object> map) {
